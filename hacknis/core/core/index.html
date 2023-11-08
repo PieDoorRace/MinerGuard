@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecology Hub</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://www.quickchat.ai/user_kit/quickchat8vqb7j.js" id="quickchat_script" scenario_id="koxrayoga1"></script>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to MineGuard</h1>
+        <p>Exploring environmental issues and solutions for the safety of miners.</p>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-us" class="content-section">
+            <h2>About Us</h2>
+            <p>Welcome to Emancipation, a passionate team of young students from Nazarbayev International School (NIS) dedicated to environmental awareness and change. We believe in the power of youth to make a positive impact on the world and are committed to addressing environmental challenges. Our mission is to raise awareness about ecological issues, advocate for sustainable practices, and work towards a greener, cleaner planet. Join us on our journey to create a better future for generations to come.</p>
+        </section>
+        <section id="gallery" class="content-section">
+            <h2>Gallery</h2>
+            <script>
+                var mySwiper = new Swiper('.swiper-container', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+            
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="airpoll1.jpg" alt="Image 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="airpoll2.jpg" alt="Image 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="airpoll3.jpg" alt="Image 3">
+                    </div>
+                </div>
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+        </section>
+        <section class="location">
+            <h2>Our location</h2>
+            <p>Find us at this location and join us in our initiatives.</p>
+            <div class="map">
+                <!-- Embed a Google Map for Almaty, Kazakhstan -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2010.0494365254562!2d76.9321582163991!3d43.24778649452903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDM0JzI5LjQiTiA3NsKwNTEnMzkuMCJF!5e0!3m2!1sen!2sus!4v1663291706707!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <address>
+                <p>Nazarbayev Intellectual Schools</p>
+                <p>Almaty, Kazakhstan</p>
+                <p>Phone: +7 (727) 123-4567</p>
+                <p>Email: info@nis.kz</p>
+            </address>
+        </section>
+
+        <section id="features">
+            <h1 class="nazvanie">Features</h1>
+            <div class="featclass">
+                <ol>
+                    <li><a href="problems/page1.html">Pollution problems</a></li>
+                    <li><a href="/core/solutions/sols.html">Solutions</a></li>
+                    <li><a href="/core/main/main.html">Our Tools</a></li>
+                    <li><a href="https://app.quickchat.ai/koxrayoga1/">MineGuardianAI</a></li>
+                </ol>
+            </div>
+
+        </section>
+
+        <section id="contact-us" class="content-section">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <p class="contact-text">We'd love to hear from you. Feel free to contact us with any questions or feedback!</p>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2023 Ecology Hub. All rights reserved. Contact us at info@ecologyhub.com</p>
+    </footer>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>    
+</body>
+</html>
